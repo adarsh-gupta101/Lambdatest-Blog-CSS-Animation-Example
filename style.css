@@ -241,7 +241,7 @@ li.fade {
   align-items: center;
   flex: 0.7;
   list-style-type: none;
-  z-index: 1000000;
+  /* z-index: 1000000; */
 }
 
 .nav__ul li {
