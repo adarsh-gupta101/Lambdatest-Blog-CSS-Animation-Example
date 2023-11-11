@@ -16,7 +16,7 @@ body {
   padding: 16px;
   background: #000;
   /* animate page onload, use a good animation */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 
 }
@@ -241,7 +241,7 @@ li.fade {
   align-items: center;
   flex: 0.7;
   list-style-type: none;
-  /* z-index: 1000000; */
+  z-index: 11;
 }
 
 .nav__ul li {
@@ -488,6 +488,8 @@ h2 {
     height: 90vh;
     width: 100%;
     margin-top: 50px;
+        overflow-x: hidden;
+
 }
 
 .features>h3{
